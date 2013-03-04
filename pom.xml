@@ -47,12 +47,12 @@
         <groupId>net.java</groupId>
         <artifactId>jvnet-parent</artifactId>
         <version>3</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>javax.security.jacc</groupId>
     <artifactId>javax.security.jacc-api</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4</version>
     <properties>
         <extension.name>javax.security.jacc</extension.name>
         <spec.version>1.4</spec.version>
