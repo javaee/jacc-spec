@@ -80,7 +80,7 @@
 
     <organization>
         <name>JACC Community</name>
-        <url>https://jaspic-spec.java.net</url>
+        <url>https://jacc-spec.java.net</url>
     </organization>
     <licenses>
         <license>
@@ -92,18 +92,18 @@
     </licenses>
     <issueManagement>
         <system>jira</system>
-        <url>http://java.net/jira/browse/JASPIC_SPEC</url>
+        <url>http://java.net/jira/browse/JACC_SPEC</url>
     </issueManagement>
     <mailingLists>
         <mailingList>
             <name>Jaspic users</name>
-            <archive>users@jaspic-spec.java.net</archive>
+            <archive>users@jacc-spec.java.net</archive>
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>scm:git:git://java.net/jaspic-spec~git</connection>
-        <developerConnection>scm:git:git://java.net/jaspic-spec~git</developerConnection>
-        <url>http://java.net/projects/jaspic-spec/sources/git/show</url>
+        <connection>scm:git:git://java.net/jacc-spec~git</connection>
+        <developerConnection>scm:git:git://java.net/jacc-spec~git</developerConnection>
+        <url>http://java.net/projects/jacc-spec/sources/git/show</url>
     </scm>
 
     <build>
