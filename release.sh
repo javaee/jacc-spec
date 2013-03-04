@@ -14,6 +14,7 @@
 #      <profile>
 #        <id>release</id>
 #        <properties>
+#	   <user.name>jvnet_id</user.name>
 #          <release.arguments>-Dhttps.proxyHost=www-proxy.us.oracle.com -Dhttps.proxyPort=80 -Dgpg.passphrase=glassfish -Pjvnet-release</release.arguments>
 #        </properties>
 #        <activation>
