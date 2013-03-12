@@ -55,15 +55,15 @@
     <version>1.5-SNAPSHOT</version>
     <properties>
         <extension.name>javax.security.jacc</extension.name>
-        <spec.version>1.5-b01</spec.version>
+        <spec.version>1.5</spec.version>
         <bundle.symbolicName>javax.security.jacc</bundle.symbolicName>         
         <vendor.name>Oracle Corporation</vendor.name>
         <implementation.vendor.id>org.glassfish</implementation.vendor.id>
         <findbugs.version>2.4.0</findbugs.version>
-        <findbugs.exclude>exclude.xml</findbugs.exclude>
+        <findbugs.exclude></findbugs.exclude>
         <findbugs.threshold>Low</findbugs.threshold>
     </properties>
-    <name>Java Authorization Contract for Containers API</name>
+    <name>Java Authorization Contract for Containers API ${spec.version}</name>
     <description>JACC API</description>
     <url>http://jcp.org/en/jsr/detail?id=115</url>
 
