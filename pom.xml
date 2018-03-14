@@ -101,7 +101,7 @@
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>cm:git:https://github.com/javaee/jacc-spec.git</connection>
+        <connection>scm:git:https://github.com/javaee/jacc-spec.git</connection>
         <developerConnection>scm:git:git@github.com:javaee/jacc-spec.git</developerConnection>
         <url>https://github.com/javaee/jacc-spec</url>
     </scm>
