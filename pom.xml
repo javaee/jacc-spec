@@ -52,7 +52,7 @@
 
     <groupId>javax.security.jacc</groupId>
     <artifactId>javax.security.jacc-api</artifactId>
-    <version>1.6</version>
+    <version>1.7-SNAPSHOT</version>
     
     <properties>
         <non.final>false</non.final>
