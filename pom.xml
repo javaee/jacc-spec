@@ -57,7 +57,7 @@
     <properties>
         <non.final>false</non.final>
         <extension.name>javax.security.jacc</extension.name>
-        <spec.version>1.5</spec.version>
+        <spec.version>1.6</spec.version>
         <findbugs.version>2.4.0</findbugs.version>
         <findbugs.skip>false</findbugs.skip>
         <findbugs.exclude>exclude-common.xml</findbugs.exclude>
@@ -79,20 +79,20 @@
     </developers>
 
     <organization>
-        <name>JACC Community</name>
-        <url>https://jacc-spec.java.net</url>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com</url>
     </organization>
     <licenses>
         <license>
             <name>CDDL + GPLv2 with classpath exception</name>
-            <url>https://glassfish.java.net/nonav/public/CDDL+GPL.html</url>
+            <url>https://javaee.github.io/jacc-spec/LICENSE</url>
             <distribution>repo</distribution>
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
     <issueManagement>
-        <system>jira</system>
-        <url>http://java.net/jira/browse/JACC_SPEC</url>
+        <system>GitHub</system>
+        <url>https://github.com/javaee/jacc-spec/issues</url>
     </issueManagement>
     <mailingLists>
         <mailingList>
@@ -101,9 +101,9 @@
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>scm:git:git://java.net/jacc-spec~git</connection>
-        <developerConnection>scm:git:ssh://${user.name}@git.java.net/jacc-spec~git</developerConnection>
-        <url>http://java.net/projects/jacc-spec/sources/git/show</url>
+        <connection>scm:git:https://github.com/javaee/jacc-spec.git</connection>
+        <developerConnection>scm:git:git@github.com:javaee/jacc-spec.git</developerConnection>
+        <url>https://github.com/javaee/jacc-spec</url>
     </scm>
 
     <build>
@@ -304,6 +304,20 @@
                         </plugins>                        
                     </reporting>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
